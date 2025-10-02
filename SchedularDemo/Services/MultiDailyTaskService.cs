@@ -20,8 +20,8 @@ namespace SchedularDemo.Services
             _jobs.Add(new DailyJob
             {
                 Name = "Email Job",
-                Hour = 15,
-                Minute = 33,
+                Hour = 16,
+                Minute = 13,
                 Second = 00,
                 Action = () => _jobService.RunEmailJobAsync()
             });
@@ -29,8 +29,8 @@ namespace SchedularDemo.Services
             _jobs.Add(new DailyJob
             {
                 Name = "Report Job",
-                Hour = 15,
-                Minute = 34,
+                Hour = 16,
+                Minute = 14,
                 Second = 00,
                 Action = () => _jobService.RunReportJobAsync()
             });
@@ -38,8 +38,8 @@ namespace SchedularDemo.Services
             _jobs.Add(new DailyJob
             {
                 Name = "Backup Job",
-                Hour = 15,
-                Minute = 35,
+                Hour = 16,
+                Minute = 15,
                 Second = 00,
                 Action = () => _jobService.RunBackupJobAsync()
             });
