@@ -35,7 +35,6 @@ namespace SchedularDemo
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
